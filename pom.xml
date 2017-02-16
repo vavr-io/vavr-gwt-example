@@ -6,7 +6,7 @@
     <groupId>io.javaslang</groupId>
     <artifactId>javaslang-gwt-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>gwt-app</packaging>
     <name>Javaslang GWT Example</name>
     <description>Example of GWT support for Javaslang.</description>
     <url>http://javaslang.io</url>
@@ -99,6 +99,7 @@
                     <includes>
                         <include>**/GwtTest*.java</include>
                     </includes>
+<!--                     <logLevel>TRACE</logLevel> -->
                 </configuration>
             </plugin>
         </plugins>
