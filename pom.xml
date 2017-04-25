@@ -3,13 +3,13 @@
     <prerequisites>
         <maven>3.0.4</maven>
     </prerequisites>
-    <groupId>io.javaslang</groupId>
-    <artifactId>javaslang-gwt-example</artifactId>
+    <groupId>io.vavr</groupId>
+    <artifactId>vavr-gwt-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>gwt-app</packaging>
-    <name>Javaslang GWT Example</name>
-    <description>Example of GWT support for Javaslang.</description>
-    <url>http://javaslang.io</url>
+    <name>Vavr GWT Example</name>
+    <description>Example of GWT support for Vavr.</description>
+    <url>http://vavr.io</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -18,9 +18,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:javaslang/javaslang-gwt-example.git</connection>
-        <developerConnection>scm:git:git@github.com:javaslang/javaslang-gwt-example.git</developerConnection>
-        <url>git@github.com:javaslang/javaslang-gwt-example.git</url>
+        <connection>scm:git:git@github.com:vavr-io/vavr-gwt-example.git</connection>
+        <developerConnection>scm:git:git@github.com:vavr-io/vavr-gwt-example.git</developerConnection>
+        <url>git@github.com:vavr-io/vavr-gwt-example.git</url>
         <tag>HEAD</tag>
     </scm>
     <developers>
@@ -34,7 +34,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <gwt.version>2.8.0</gwt.version>
         <java.version>1.8</java.version>
-        <javaslang.gwt.version>2.1.0-SNAPSHOT</javaslang.gwt.version>
+        <vavr.gwt.version>0.9.0-SNAPSHOT</vavr.gwt.version>
         <junit.version>4.12</junit.version>
         <maven.compiler.version>3.5.1</maven.compiler.version>
         <maven.deploy.version>2.8.2</maven.deploy.version>
@@ -42,8 +42,8 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>javaslang-gwt</artifactId>
-            <version>${javaslang.gwt.version}</version>
+            <artifactId>vavr-gwt</artifactId>
+            <version>${vavr.gwt.version}</version>
         </dependency>
         <dependency>
             <groupId>com.google.gwt</groupId>
@@ -95,7 +95,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <skipModule>true</skipModule>
-                    <moduleName>JavaslangExample</moduleName>
+                    <moduleName>VavrExample</moduleName>
                     <includes>
                         <include>**/GwtTest*.java</include>
                     </includes>

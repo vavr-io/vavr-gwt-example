@@ -1,0 +1,4 @@
+<module>
+    <inherits name='Vavr'/>
+    <entry-point class="io.vavr.VavrEntryPoint"/>
+</module>

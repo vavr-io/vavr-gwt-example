@@ -1,17 +1,17 @@
-package javaslang;
+package io.vavr;
 
 import com.google.gwt.core.client.EntryPoint;
-import javaslang.collection.HashMap;
-import javaslang.collection.List;
-import javaslang.collection.Map;
-import javaslang.collection.Stream;
-import javaslang.control.Either;
-import javaslang.control.Option;
-import javaslang.control.Try;
+import io.vavr.collection.HashMap;
+import io.vavr.collection.List;
+import io.vavr.collection.Map;
+import io.vavr.collection.Stream;
+import io.vavr.control.Either;
+import io.vavr.control.Option;
+import io.vavr.control.Try;
 
-import static javaslang.API.For;
+import static io.vavr.API.For;
 
-public class JavaslangEntryPoint implements EntryPoint {
+public class VavrEntryPoint implements EntryPoint {
     @Override
     public void onModuleLoad() {
         shouldGeneratePrimes();
